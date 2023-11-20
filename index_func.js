@@ -14,7 +14,6 @@ logger();
 function foodProcessor(apples, oranges) {
   // console.log(apples);
   // console.log(oranges);
-
   const juice = `juice with ${apples} apples and ${oranges} oranges`;
   return juice;
 }
