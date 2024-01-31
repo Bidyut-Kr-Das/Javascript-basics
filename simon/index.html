@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="flex flex-col gap-4 items-center justify-center h-screen bg-slate-800"
+  >
+    <h1 class="text-white font-semibold text-lg">
+      Levels Cleared: <span id="score">0</span>
+    </h1>
+    <h1 class="text-white font-semibold text-lg" id="Turn">
+      Press any key on keyboard to start
+    </h1>
+    <section class="flex gap-4 items-center justify-center">
+      <div
+        class="buttons bg-red-400 border-2 border-black/80 aspect-square h-36 rounded-lg cursor-pointer"
+        key="1"
+        color="red"
+      ></div>
+      <div
+        class="buttons bg-green-400 border-2 border-black/80 aspect-square h-36 rounded-lg cursor-pointer"
+        key="2"
+        color="green"
+      ></div>
+    </section>
+    <section class="flex gap-4">
+      <div
+        class="buttons bg-blue-400 border-2 border-black/80 aspect-square h-36 rounded-lg cursor-pointer"
+        key="3"
+        color="blue"
+      ></div>
+      <div
+        class="buttons bg-yellow-400 border-2 border-black/80 aspect-square h-36 rounded-lg cursor-pointer"
+        key="4"
+        color="yellow"
+      ></div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

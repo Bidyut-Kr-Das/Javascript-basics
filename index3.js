@@ -260,11 +260,9 @@ console.log(fullname);
 //   ? console.log(`You are not an adult`)
 //   : console.log(`You are an adult`);
 
-
-  //* falsy value 
-  //* object
-  //* rest operator
-
+//* falsy value
+//* object
+//* rest operator
 
 //falsy value
 // 0,'',null,undefined,false
@@ -285,7 +283,3 @@ console.log(fullname);
 // else{
 //   console.log(`Please click on the start button`);
 // }
-
-
-
- 

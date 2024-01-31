@@ -40,3 +40,6 @@ console.log(aliasMayBe, restrauntNewName);
 
 //lets create a function that will deliver the food to the customer
 
+//redeclare is not allowed in let
+
+// hoisting
